@@ -50,8 +50,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Api\Endpoints.cs" />
+    <Compile Include="Api\IHeartbeatable.cs" />
+    <Compile Include="Api\Responses\IHeartbeat.cs" />
+    <Compile Include="Api\JsonHttpHelper.cs" />
     <Compile Include="Api\Responses\ApiHeartbeat.cs" />
+    <Compile Include="Api\Responses\StockBid.cs" />
     <Compile Include="Api\Responses\VenueHeartbeat.cs" />
+    <Compile Include="Api\Responses\Stock.cs" />
+    <Compile Include="Api\Venue.cs" />
+    <Compile Include="Api\Responses\VenueStocks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Api\StockfighterApi.cs" />
   </ItemGroup>

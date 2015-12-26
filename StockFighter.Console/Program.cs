@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace StockFighter
+﻿namespace StockFighter.Console
 {
     public static class Program
     {
         public static void Main()
         {
-            Console.ReadKey();
+            System.Console.ReadKey();
         }
     }
 }
